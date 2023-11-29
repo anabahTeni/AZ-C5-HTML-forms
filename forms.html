@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  
+<form action="action_page.php" method="post" target="_blank" autocomplete="off">
+    <br>
+    <div>
+        <label for="title">Title:</label>
+        <input type="radio" name="marriage status">Mr.
+        <input type="radio" name="marriage status">Mrs.
+        <input type="radio" name="educaion level">ph.D
+        <input type="radio" name="career">Ing.
+    </div>
+    <br>
+    <div>
+       <label for="fname">First Name:</label>
+    <input type="text" placeholder="Enter your First Name"required>
+    </div>
+    
+    
+    <br>
+    <div>
+        <label for="Lname">Last Name:</label>
+        <input type="text" placeholder="Enter Your Last Name"required>
+    </div>
+   <br>
+   <div>
+       <label for="email">Email:</label>
+       <input type="email" placeholder="Enter Email address"required>
+    </div>
+    <br>
+    <div>
+        <label for="pword">Password:</label>
+        <input type="password" name="pword" id="pword" maxlength="10">
+    </div>
+    <br>
+    <div>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender">Male 
+        <input type="radio" name="gender">Female 
+
+    </div>
+    <br>
+    <div>
+        <label for="age">Age:</label>
+       <input type="number" name="Age" id="Age" step="1">
+    </div>
+
+    <br>
+    <div>
+        <label for="phoneNo">Telephone number:</label>
+        <input type="tel" name="phoneNo" id="phoneNo"required placeholder="+233-558-678-9532">
+    </div>
+    <br>
+    <div>
+        <label for="bithdate">Date of Birth:</label>
+        <input type="date" name="Date of Birth" id="Date of Birth">
+    </div>
+    <br>
+    <div>
+        <label for="country">Country of Residence:</label>
+        <select name="country" id="country">
+            <option value="Ghana">Ghana</option>
+            <option value="United States">United States</option>
+            <option value="Canada">Canada</option>
+            <option value="Nigeria">Nigeria</option>
+            <option value="China">China</option>
+        </select>
+    
+    </div>
+<br>
+<div>
+    <label for="likes">Interests:</label>
+    <input type="checkbox" name="Reading">Reading
+    <input type="checkbox" name="sports">Sports
+    <input type="checkbox" name="music">Music
+    <input type="checkbox" name="travel">Travel
+</div>
+<br>
+<div>
+    <label for="other">Other interest you'll want us to know:</label>
+    <input type="text" name="other" placeholder="let us know">
+</div>
+<br>
+<div>
+    <label for="comment">Do you have any additional comments and feedback you would like to know:</label>
+<input type="text" placeholder="comments and feedback">
+</div>
+ <br>
+ <div>
+    <input type="reset">
+ </div>
+
+ <br>
+ <div>
+    <input type="submit">
+ </div>
+ 
+</form>
+
+  
+    
+</body>
+</html>
